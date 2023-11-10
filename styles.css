@@ -1,0 +1,158 @@
+body{
+    
+    margin: 500px;/*image positioned in the center of the page*/
+    background-image: url(assets/background.jpg); /*background image for the body*/
+    background-size:contain; /*image will take up all space on the browser screen*/
+    
+}
+
+/*configures the entire class container in white color that receives a relative position so that it can be adjusted according to the design*/
+.container {
+    position:relative;
+    color: white;
+    max-width: 100%; /*set the max-width to 100%*/
+    margin: 0 auto; /*add margin 0 and auto*/
+    align-items: center; /*align the items to the center of the container*/
+    height: 100%;/*This will center vertically in relation to the height of the window. */
+  }
+
+ /*Here the configuration of the top of the page with the names of the actors begins, it receives an absolute position so that it is positioned at the top of the page over the image*/
+ul{
+    position:absolute;
+    top: 0%;
+}
+/*block to style the list with the names of actors aligned in block*/
+ul li
+{
+    display:inline-flex;
+    text-align: center;
+    margin-top: 25px;
+    padding: 5px;
+    margin: 0 auto;
+} 
+/*text and links style*/
+ul li a 
+{ 
+    text-decoration:none;/*no decoration for the link*/
+    font-size:12px; /*set size to the text to 13px*/
+    font-family: Arial; /*add font Arial to the text*/
+    text-shadow: 3px 5px 5px rgb(0, 0, 0); /*add black shadow to the text*/
+    color: white; /*add color white to the text*/
+    padding: 17px; /*add padding to the text in 15px*/
+    margin: auto; /*add margin auto to the text*/
+}
+/*add hover to the list */
+ul li:hover 
+{
+     text-shadow: 30px 30px 30px rgb(255, 255, 255);/*add shadow hover to the text*/
+     transform: scale(1.2);/*make the text a little bigger*/
+}
+
+/* Styling for the 'top-bottom' section */
+.top-bottom{
+    position: absolute;
+    top:0;
+    margin-top: 130%;
+    margin-left: 35%;
+    font-family: arial;
+    font-size: 12px;
+}
+/* Styling for the 'title' section */
+.title{
+    position: absolute;
+    top:0;
+    margin-top: 130%;
+    margin-left: 13%;
+    font-size: 20px;
+    font-family: arial;
+    letter-spacing: 10px;
+    text-shadow: 5px 5px 5px black;
+    transition: text-shadow 0.4s; /* Animates the text shadow over 0.4 seconds */
+}
+    
+/* Styling for the 'title' section on hover */
+.title:hover{
+    transform: scale(1.2);
+    text-shadow: 5px 7px 40px rgb(255, 255, 255);
+    color:rgb(242, 208, 113);
+}
+/* Styling for the 'phrase' section */
+.phrase{
+    position: absolute;
+    top:0;
+    margin-top: 141%;
+    margin-left: 19%;
+    font-size: 12px;
+    font-family: arial;
+}
+/* Styling for the 'big-p' section */
+.big-p{
+    position: absolute;
+    top:0;
+    text-align:center;
+    margin-top: 150%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 6px;
+    font-family: arial;
+}
+/* Styling for the 'footer' section */
+.footer{
+    position: absolute;
+    top:0;
+    margin-left: 40%;
+    margin-top: 160%;
+    font-size: 12px;
+    font-family: arial;
+    text-align:center;
+}
+/* Styling for 'wb-logo' */
+.wb-logo{
+    position: absolute;
+    top:0;
+    margin-left: 50px;
+    margin-top: 162%;
+    width: 50px;
+    height: 25px;
+}
+/* Styling for 'syncopy-logo' */
+.syncopy-logo{
+    position: absolute;
+    top:0;
+    margin-left: 100px;
+    margin-top: 163%;
+    width: 50px;
+    height: 20px;
+}
+/* Styling for 'legendary-logo' */
+.legendary-logo{
+    position: absolute;
+    top:0;
+    margin-left: 159px;
+    margin-top: 164%;
+    width: 45px;
+    height: 15px;
+}
+/* Styling for 'paramount-logo' */
+.paramount-logo{
+    position: absolute;
+    top:0;
+    margin-left: 450px;
+    margin-top: 163%;
+    width: 35px;
+    height: 20px;
+}
+/* Styling for the 'extra' section */
+.extra{
+    position: absolute;
+    top:0;
+    margin-left: 320px;
+    margin-top: 164%;
+    font-size: 8px;
+    font-family: arial;
+}
+/* Styling for links within the 'extra' section */
+.extra a{
+    text-decoration:none;
+    color: white;
+}
